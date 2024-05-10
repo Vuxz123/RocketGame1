@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; align-items: center; justify-content: flex-start; align-self: auto; background-color: rgb(207, 44, 44);">
+        <ui:VisualElement style="flex-grow: 1; width: 50%; height: 50%; align-self: center; align-items: center; justify-content: center;">
+            <ui:Button text="Home" parse-escape-sequences="true" display-tooltip-when-elided="true" name="toMenu" style="border-left-color: rgba(17, 255, 0, 0); border-right-color: rgba(17, 255, 0, 0); border-top-color: rgba(17, 255, 0, 0); border-bottom-color: rgba(17, 255, 0, 0); background-color: rgb(36, 212, 19); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" />
+            <ui:Button text="Play Again" parse-escape-sequences="true" display-tooltip-when-elided="true" name="restart" style="border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="score" style="position: absolute; bottom: 2px; height: 25px; top: 20%; font-size: 30px; -unity-text-align: middle-center; -unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
